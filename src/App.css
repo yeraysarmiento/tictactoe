@@ -1,0 +1,11 @@
+.board {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  background-color: "red";
+  width: 100px;
+  height: 100px;
+}
